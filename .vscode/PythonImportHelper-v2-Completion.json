@@ -1,0 +1,496 @@
+[
+    {
+        "label": "*",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Calculatr",
+        "description": "Calculatr",
+        "peekOfCode": "num1 = float(input(\"Enter a number: \"))\nnum2 = float(input(\"Enter second number number: \"))\nop = input(\"enter opration\")\nresult = num1 + num2\nif op == \"+\":\n    print(num1 +  num2)\nelif op == \"-\":\n    print(num1 - num2)\nelif op == \"*\":\n    print(num1 * num2)",
+        "detail": "Calculatr",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "Calculatr",
+        "description": "Calculatr",
+        "peekOfCode": "num2 = float(input(\"Enter second number number: \"))\nop = input(\"enter opration\")\nresult = num1 + num2\nif op == \"+\":\n    print(num1 +  num2)\nelif op == \"-\":\n    print(num1 - num2)\nelif op == \"*\":\n    print(num1 * num2)\nelif op == \"/\":",
+        "detail": "Calculatr",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "kind": 5,
+        "importPath": "Calculatr",
+        "description": "Calculatr",
+        "peekOfCode": "op = input(\"enter opration\")\nresult = num1 + num2\nif op == \"+\":\n    print(num1 +  num2)\nelif op == \"-\":\n    print(num1 - num2)\nelif op == \"*\":\n    print(num1 * num2)\nelif op == \"/\":\n    print(num1 / num2)    ",
+        "detail": "Calculatr",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Calculatr",
+        "description": "Calculatr",
+        "peekOfCode": "result = num1 + num2\nif op == \"+\":\n    print(num1 +  num2)\nelif op == \"-\":\n    print(num1 - num2)\nelif op == \"*\":\n    print(num1 * num2)\nelif op == \"/\":\n    print(num1 / num2)    \nelif op == \"%\":",
+        "detail": "Calculatr",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 6,
+        "importPath": "classes_objects",
+        "description": "classes_objects",
+        "peekOfCode": "class student:\n    def __init__(self, name, gpa):\n        self.name = name\n        self.gpa = gpa\n    def on_honor_roll(self):\n        if self.gpa >= 3.5:\n            return True\n        else:\n            return False\nstudent1 = student(name = \" rahim\", gpa= 3.2)",
+        "detail": "classes_objects",
+        "documentation": {}
+    },
+    {
+        "label": "student1",
+        "kind": 5,
+        "importPath": "classes_objects",
+        "description": "classes_objects",
+        "peekOfCode": "student1 = student(name = \" rahim\", gpa= 3.2)\nstudent2 = student(name = \" ali wzir\", gpa= 3.8)\nprint(student2.on_honor_roll())\nprint(student1.gpa)\nprint(student2.name)",
+        "detail": "classes_objects",
+        "documentation": {}
+    },
+    {
+        "label": "student2",
+        "kind": 5,
+        "importPath": "classes_objects",
+        "description": "classes_objects",
+        "peekOfCode": "student2 = student(name = \" ali wzir\", gpa= 3.8)\nprint(student2.on_honor_roll())\nprint(student1.gpa)\nprint(student2.name)",
+        "detail": "classes_objects",
+        "documentation": {}
+    },
+    {
+        "label": "months",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
+        "peekOfCode": "months = {\"ist\" : \"jan\",\n          \"sec\": \"feb\"}\nprint(months)\nprint(months.get(\"sec\"))\nprint(months.get(\"third\", \"not presesnt\"))",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "exponent_function",
+        "kind": 2,
+        "importPath": "exponent_ftn",
+        "description": "exponent_ftn",
+        "peekOfCode": "def exponent_function(base_num, pow_num):\n    result = 1\n    for i in range(pow_num):\n        result = result *base_num\n    return result\nprint(exponent_function(3,4))",
+        "detail": "exponent_ftn",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "For_loop",
+        "description": "For_loop",
+        "peekOfCode": "name = \"rahim\"\nfor letter in name:\n    print(letter) #it will print character of abive srring one by one\nnum = [1,2,3,4,5]\nfor i in num:\n    print(i)\nfor number in range(10):\n    print(number)    \nfriends = ['abc',\"def\", \"jhk\"]\nfor index in  range(len(friends)):",
+        "detail": "For_loop",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "For_loop",
+        "description": "For_loop",
+        "peekOfCode": "num = [1,2,3,4,5]\nfor i in num:\n    print(i)\nfor number in range(10):\n    print(number)    \nfriends = ['abc',\"def\", \"jhk\"]\nfor index in  range(len(friends)):\n    print(friends[index])",
+        "detail": "For_loop",
+        "documentation": {}
+    },
+    {
+        "label": "friends",
+        "kind": 5,
+        "importPath": "For_loop",
+        "description": "For_loop",
+        "peekOfCode": "friends = ['abc',\"def\", \"jhk\"]\nfor index in  range(len(friends)):\n    print(friends[index])",
+        "detail": "For_loop",
+        "documentation": {}
+    },
+    {
+        "label": "say_hi",
+        "kind": 2,
+        "importPath": "ftn",
+        "description": "ftn",
+        "peekOfCode": "def say_hi(name,age):\n    print(\"hello \" + name + \"you are \"+ str(age) )\nprint(\"rahim\")\nsay_hi(\"rahim\", 23)    # apiece of informaiton that is given to function\n# Return statements\ndef cube(num):\n    return num*num*num\nprint(cube(5))",
+        "detail": "ftn",
+        "documentation": {}
+    },
+    {
+        "label": "cube",
+        "kind": 2,
+        "importPath": "ftn",
+        "description": "ftn",
+        "peekOfCode": "def cube(num):\n    return num*num*num\nprint(cube(5))",
+        "detail": "ftn",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "guessing_Game",
+        "description": "guessing_Game",
+        "peekOfCode": "target = \"correct\"\nguess = \"\"\nguess_limit = 3\nwhile guess != target and guess_limit != 0 :\n    guess = input(\"enter your guess: \")\n    guess_limit -= 1\nif guess == target:\n    print(\"u win. \")\nelse:    \n    print(\"u lose. \")",
+        "detail": "guessing_Game",
+        "documentation": {}
+    },
+    {
+        "label": "guess",
+        "kind": 5,
+        "importPath": "guessing_Game",
+        "description": "guessing_Game",
+        "peekOfCode": "guess = \"\"\nguess_limit = 3\nwhile guess != target and guess_limit != 0 :\n    guess = input(\"enter your guess: \")\n    guess_limit -= 1\nif guess == target:\n    print(\"u win. \")\nelse:    \n    print(\"u lose. \")",
+        "detail": "guessing_Game",
+        "documentation": {}
+    },
+    {
+        "label": "guess_limit",
+        "kind": 5,
+        "importPath": "guessing_Game",
+        "description": "guessing_Game",
+        "peekOfCode": "guess_limit = 3\nwhile guess != target and guess_limit != 0 :\n    guess = input(\"enter your guess: \")\n    guess_limit -= 1\nif guess == target:\n    print(\"u win. \")\nelse:    \n    print(\"u lose. \")",
+        "detail": "guessing_Game",
+        "documentation": {}
+    },
+    {
+        "label": "max",
+        "kind": 2,
+        "importPath": "if_statements",
+        "description": "if_statements",
+        "peekOfCode": "def max(num1, num2, num3):\n    if num1 > num2 and num2 > num3:\n        return num1\n    elif num2 >  num1 and num2 > num3:\n        return num2\n    else:\n        return num3\nprint(max(12,23,34))",
+        "detail": "if_statements",
+        "documentation": {}
+    },
+    {
+        "label": "marks",
+        "kind": 5,
+        "importPath": "if_statements",
+        "description": "if_statements",
+        "peekOfCode": "marks = 45\ngradute = True\nmale = True\nif marks >= 50:\n    print(\"you are pass\")   \nelif male and gradute:\n    print(\"you are male\")\nelse:                   # we cannot put condition in else \n    print(\"best of luck for next time\")        \n# comparison through if statements",
+        "detail": "if_statements",
+        "documentation": {}
+    },
+    {
+        "label": "gradute",
+        "kind": 5,
+        "importPath": "if_statements",
+        "description": "if_statements",
+        "peekOfCode": "gradute = True\nmale = True\nif marks >= 50:\n    print(\"you are pass\")   \nelif male and gradute:\n    print(\"you are male\")\nelse:                   # we cannot put condition in else \n    print(\"best of luck for next time\")        \n# comparison through if statements\n    #  == comparison operator",
+        "detail": "if_statements",
+        "documentation": {}
+    },
+    {
+        "label": "male",
+        "kind": 5,
+        "importPath": "if_statements",
+        "description": "if_statements",
+        "peekOfCode": "male = True\nif marks >= 50:\n    print(\"you are pass\")   \nelif male and gradute:\n    print(\"you are male\")\nelse:                   # we cannot put condition in else \n    print(\"best of luck for next time\")        \n# comparison through if statements\n    #  == comparison operator\ndef max(num1, num2, num3):",
+        "detail": "if_statements",
+        "documentation": {}
+    },
+    {
+        "label": "chef",
+        "kind": 6,
+        "importPath": "inhiritance",
+        "description": "inhiritance",
+        "peekOfCode": "class chef:\n    def make_chicken(self):\n        print(\"chef can make chicken\")\n    def make_salad(self):\n        print(\"chef can make salad\")\n    def make_special_dish(self):\n        print(\"chef can make special  bbq\")\nclass chineese_chef(chef):\n    def make_fried_rice(self):\n        print(\"chineese can make fried rice\")",
+        "detail": "inhiritance",
+        "documentation": {}
+    },
+    {
+        "label": "chineese_chef",
+        "kind": 6,
+        "importPath": "inhiritance",
+        "description": "inhiritance",
+        "peekOfCode": "class chineese_chef(chef):\n    def make_fried_rice(self):\n        print(\"chineese can make fried rice\")\n    def make_special_dish(self):\n        print(\"chineense can make special orange chicken\")  \nmy_chef = chef()\nmy_chineese_chef = chineese_chef()\nmy_chef.make_chicken()\nmy_chineese_chef.make_fried_rice()\nmy_chineese_chef.make_chicken()",
+        "detail": "inhiritance",
+        "documentation": {}
+    },
+    {
+        "label": "my_chef",
+        "kind": 5,
+        "importPath": "inhiritance",
+        "description": "inhiritance",
+        "peekOfCode": "my_chef = chef()\nmy_chineese_chef = chineese_chef()\nmy_chef.make_chicken()\nmy_chineese_chef.make_fried_rice()\nmy_chineese_chef.make_chicken()\nmy_chef.make_special_dish()\nmy_chineese_chef.make_special_dish()",
+        "detail": "inhiritance",
+        "documentation": {}
+    },
+    {
+        "label": "my_chineese_chef",
+        "kind": 5,
+        "importPath": "inhiritance",
+        "description": "inhiritance",
+        "peekOfCode": "my_chineese_chef = chineese_chef()\nmy_chef.make_chicken()\nmy_chineese_chef.make_fried_rice()\nmy_chineese_chef.make_chicken()\nmy_chef.make_special_dish()\nmy_chineese_chef.make_special_dish()",
+        "detail": "inhiritance",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "num = [1,2,2,3,2,3,4,5,6,7,8]\nalph= [1.1,2.2,3.3,4.4]\nprint(num[-2])  # from reverse side\nprint(num[2:5]) #0[ 3,4,5] i.e index 1 include and index 5 exclude\nprint(num[:2]) # from start upto 2\nprint(num[3:]) # from 3 to onward\nprint(num[::2])  #means it leaves every second one\n# List functions \nnum.extend(alph)    #it append another list at the end\nnum.append(9)   #it append value at the end",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "num2 = num.copy()   #if only write num2 = num it will not work i.e whenever i append something to num2 it will be also appended to num b/c \nv = [45,5]\nv2 = v\nv2[1] = 4 #here v2 refer to the list object i.e output of both will be same\nprint(v)\nprint(v2)\n# 2d list and nested loops\nprint(\"printing 2dlist\")\ntwo_d_list = [\n    [1,2,3,4],",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "v",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "v = [45,5]\nv2 = v\nv2[1] = 4 #here v2 refer to the list object i.e output of both will be same\nprint(v)\nprint(v2)\n# 2d list and nested loops\nprint(\"printing 2dlist\")\ntwo_d_list = [\n    [1,2,3,4],\n    [5,6,7,8],",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "v2",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "v2 = v\nv2[1] = 4 #here v2 refer to the list object i.e output of both will be same\nprint(v)\nprint(v2)\n# 2d list and nested loops\nprint(\"printing 2dlist\")\ntwo_d_list = [\n    [1,2,3,4],\n    [5,6,7,8],\n    [9,11,12]",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "v2[1]",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "v2[1] = 4 #here v2 refer to the list object i.e output of both will be same\nprint(v)\nprint(v2)\n# 2d list and nested loops\nprint(\"printing 2dlist\")\ntwo_d_list = [\n    [1,2,3,4],\n    [5,6,7,8],\n    [9,11,12]\n]",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "two_d_list",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "two_d_list = [\n    [1,2,3,4],\n    [5,6,7,8],\n    [9,11,12]\n]\nprint(two_d_list[0][0])\nfor row in two_d_list:\n    print(row)\nfor row in two_d_list:\n    for col in row:",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "question",
+        "kind": 6,
+        "importPath": "mcqs",
+        "description": "mcqs",
+        "peekOfCode": "class question:\n    def __init__(self, prompt, answer):\n        self.prompt = prompt\n        self.answer = answer\nquestion_prompts = [\n\"what is the clolor of apples?\\n(a)g/r\\n(B)b\\n(c)pink \\n\\n\",\n\"what is the clolor of mangoo?\\n(a)g\\n(B)y\\n(c)r \\n\\n\",\n\"what is the clolor of malta?\\n(a)g\\n(B)b\\n(c)r \\n\\n \"\n]\nquestions =[",
+        "detail": "mcqs",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": "mcqs",
+        "description": "mcqs",
+        "peekOfCode": "def run_test(questions):\n    score = 0\n    for question in questions:\n        answer = input(question.prompt)\n        if answer == question.answer:\n            score +=1\n    print(\"you got \"+ str(score) + \"/\" + str(len(questions)) + \" correct. \")        \nrun_test(questions)",
+        "detail": "mcqs",
+        "documentation": {}
+    },
+    {
+        "label": "question_prompts",
+        "kind": 5,
+        "importPath": "mcqs",
+        "description": "mcqs",
+        "peekOfCode": "question_prompts = [\n\"what is the clolor of apples?\\n(a)g/r\\n(B)b\\n(c)pink \\n\\n\",\n\"what is the clolor of mangoo?\\n(a)g\\n(B)y\\n(c)r \\n\\n\",\n\"what is the clolor of malta?\\n(a)g\\n(B)b\\n(c)r \\n\\n \"\n]\nquestions =[\n     question(prompt = question_prompts[0], answer = 'a'),\n     question(prompt = question_prompts[1], answer = 'b'),\n     question(prompt = question_prompts[2],answer = 'c')\n]",
+        "detail": "mcqs",
+        "documentation": {}
+    },
+    {
+        "label": "color",
+        "kind": 5,
+        "importPath": "midlabsgame",
+        "description": "midlabsgame",
+        "peekOfCode": "color = input(\"Enter a color\")\nplural_noun = input(\"Enter aplural_noun\")\ncelebrity = input(\"Enter a celebrity\")\nprint(\"roses are \" + color)\nprint(\"vilets are blue \" + plural_noun)\nprint(\"I ove you\" + celebrity)",
+        "detail": "midlabsgame",
+        "documentation": {}
+    },
+    {
+        "label": "plural_noun",
+        "kind": 5,
+        "importPath": "midlabsgame",
+        "description": "midlabsgame",
+        "peekOfCode": "plural_noun = input(\"Enter aplural_noun\")\ncelebrity = input(\"Enter a celebrity\")\nprint(\"roses are \" + color)\nprint(\"vilets are blue \" + plural_noun)\nprint(\"I ove you\" + celebrity)",
+        "detail": "midlabsgame",
+        "documentation": {}
+    },
+    {
+        "label": "celebrity",
+        "kind": 5,
+        "importPath": "midlabsgame",
+        "description": "midlabsgame",
+        "peekOfCode": "celebrity = input(\"Enter a celebrity\")\nprint(\"roses are \" + color)\nprint(\"vilets are blue \" + plural_noun)\nprint(\"I ove you\" + celebrity)",
+        "detail": "midlabsgame",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "nmbr",
+        "description": "nmbr",
+        "peekOfCode": "num = 5\nnum = str(num)\nprint(type(num))  #type = str\n# abs(num) give absolute number\n# pow(3,2) = 3^2\n# max(4,5) gi e high number min(6,7)\n#  round(3.7)  == 4\n# by importing  \"\"\"\" from math import * ==> floor(3.7) == 3, ceil(3.7) == 4\n# sqrt(36) == 6\n#",
+        "detail": "nmbr",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "nmbr",
+        "description": "nmbr",
+        "peekOfCode": "num = str(num)\nprint(type(num))  #type = str\n# abs(num) give absolute number\n# pow(3,2) = 3^2\n# max(4,5) gi e high number min(6,7)\n#  round(3.7)  == 4\n# by importing  \"\"\"\" from math import * ==> floor(3.7) == 3, ceil(3.7) == 4\n# sqrt(36) == 6\n#",
+        "detail": "nmbr",
+        "documentation": {}
+    },
+    {
+        "label": "family_file",
+        "kind": 5,
+        "importPath": "Reading_Files",
+        "description": "Reading_Files",
+        "peekOfCode": "family_file = open(\"textfile.txt\",\"r\") #reading information\nprint(family_file.readable()) #we should check that the file is readable or not\n# print(family_file.read()) # to read all \n# print(family_file.readline()) #to read only loine starts from ist one \n# print(family_file.readlines()[1])  #family_file.readlines() this function gives the file ion a array style so we can access the specific infomation by indexing\nfor data in family_file.readlines():\n    print(data)\nfamily_file.close()\nfamily_file = open(\"textfile.txt\",\"w\") #overriding a file\n# family_file.write(\"\\nume hani\")",
+        "detail": "Reading_Files",
+        "documentation": {}
+    },
+    {
+        "label": "family_file",
+        "kind": 5,
+        "importPath": "Reading_Files",
+        "description": "Reading_Files",
+        "peekOfCode": "family_file = open(\"textfile.txt\",\"w\") #overriding a file\n# family_file.write(\"\\nume hani\")\nfamily_file = open(\"textfile.txt\",\"r+\") # appending new information at the last \nprint(family_file.writable()) #we should check that the file is writable or not\nfamily_file.write(\"\\nume hani\")\nprint(family_file.read())\nopen(\"textfile.txt\",\"r+\") # read + wride information\n# open(\"index.html\",\"w\") # in this way we can also make a mew file\n# family_file.write(\"<p>thsi is Paragaph </p>\")",
+        "detail": "Reading_Files",
+        "documentation": {}
+    },
+    {
+        "label": "family_file",
+        "kind": 5,
+        "importPath": "Reading_Files",
+        "description": "Reading_Files",
+        "peekOfCode": "family_file = open(\"textfile.txt\",\"r+\") # appending new information at the last \nprint(family_file.writable()) #we should check that the file is writable or not\nfamily_file.write(\"\\nume hani\")\nprint(family_file.read())\nopen(\"textfile.txt\",\"r+\") # read + wride information\n# open(\"index.html\",\"w\") # in this way we can also make a mew file\n# family_file.write(\"<p>thsi is Paragaph </p>\")",
+        "detail": "Reading_Files",
+        "documentation": {}
+    },
+    {
+        "label": "my_profession",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "my_profession = \"Web Development\"\nprint(my_profession.lower()) # to make all character small\nprint(my_profession.upper()) # to make all character capitale\nprint(my_profession.isupper()) # to check all the character are capital or not -->Result False B/C  strings are immutable in python until i not \n# reassign the the new value to the variable it will not change and when we reassin the new value to the same variable the previuos value \n# is still store in the memory but the variable is now assign to the new value\nmy_profession = my_profession.upper()\nprint(my_profession.isupper()) # now it will give expected result i.e True\nname = \"Rahim\"\nprint(id(name)) #memory address",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "my_profession",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "my_profession = my_profession.upper()\nprint(my_profession.isupper()) # now it will give expected result i.e True\nname = \"Rahim\"\nprint(id(name)) #memory address\nprint(len(my_profession)) #the length of the string\nprint(my_profession[0])  # to take the individual character\nmy_profession = \"Web Development\"\nprint(my_profession.index(\"l\"))  # to find the index of character i.e 8\nprint( my_profession.replace(\"Web\",\"App\")) #to replace xxxxx",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "name = \"Rahim\"\nprint(id(name)) #memory address\nprint(len(my_profession)) #the length of the string\nprint(my_profession[0])  # to take the individual character\nmy_profession = \"Web Development\"\nprint(my_profession.index(\"l\"))  # to find the index of character i.e 8\nprint( my_profession.replace(\"Web\",\"App\")) #to replace xxxxx",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "my_profession",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "my_profession = \"Web Development\"\nprint(my_profession.index(\"l\"))  # to find the index of character i.e 8\nprint( my_profession.replace(\"Web\",\"App\")) #to replace xxxxx",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "translate",
+        "kind": 2,
+        "importPath": "translator",
+        "description": "translator",
+        "peekOfCode": "def translate(phrase):\n    translation = \"\"\n    for letter in phrase:\n        if letter.lower() in \"aeiou\":\n            if letter.isupper():\n                translation = translation + \"G\"\n            else:\n                translation = translation + \"g\"\n        else:\n            translation = translation +letter",
+        "detail": "translator",
+        "documentation": {}
+    },
+    {
+        "label": "coordinates",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "coordinates = [(1,2),(1,3),(1,4)] \nprint(coordinates[1])\nprint(coordinates[0])",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "user_input",
+        "description": "user_input",
+        "peekOfCode": "name = input(\"enter your name: \")\nprint(\"hello \" + name)",
+        "detail": "user_input",
+        "documentation": {}
+    },
+    {
+        "label": "name1",
+        "kind": 5,
+        "importPath": "var_datatypes",
+        "description": "var_datatypes",
+        "peekOfCode": "name1 = \"ali\"\nage = \"1\"\nname2 = \"Muhammad\" \nage1 = 2\nprint(name1 + \" is \" + age + \" year old:\")  # we can only concatenate string as there by plus sign\nprint(name2 + \" is \",age1,\" year old:\") #if I have to write the integer with string so i have to write ww\\ith this way\nprint(f\"{name2} is {age1} year old\") # professional way",
+        "detail": "var_datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "var_datatypes",
+        "description": "var_datatypes",
+        "peekOfCode": "age = \"1\"\nname2 = \"Muhammad\" \nage1 = 2\nprint(name1 + \" is \" + age + \" year old:\")  # we can only concatenate string as there by plus sign\nprint(name2 + \" is \",age1,\" year old:\") #if I have to write the integer with string so i have to write ww\\ith this way\nprint(f\"{name2} is {age1} year old\") # professional way",
+        "detail": "var_datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "name2",
+        "kind": 5,
+        "importPath": "var_datatypes",
+        "description": "var_datatypes",
+        "peekOfCode": "name2 = \"Muhammad\" \nage1 = 2\nprint(name1 + \" is \" + age + \" year old:\")  # we can only concatenate string as there by plus sign\nprint(name2 + \" is \",age1,\" year old:\") #if I have to write the integer with string so i have to write ww\\ith this way\nprint(f\"{name2} is {age1} year old\") # professional way",
+        "detail": "var_datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "age1",
+        "kind": 5,
+        "importPath": "var_datatypes",
+        "description": "var_datatypes",
+        "peekOfCode": "age1 = 2\nprint(name1 + \" is \" + age + \" year old:\")  # we can only concatenate string as there by plus sign\nprint(name2 + \" is \",age1,\" year old:\") #if I have to write the integer with string so i have to write ww\\ith this way\nprint(f\"{name2} is {age1} year old\") # professional way",
+        "detail": "var_datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "while_loops",
+        "description": "while_loops",
+        "peekOfCode": "i = 1\nwhile i<10:     #we can imlement more than one condition in this loop\n    print(i)\n    i = i+1\n    i += 1",
+        "detail": "while_loops",
+        "documentation": {}
+    }
+]
