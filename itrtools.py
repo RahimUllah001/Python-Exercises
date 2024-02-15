@@ -6,10 +6,10 @@ import operator
 a=[1,2]
 b=[3,4]
 
-prod = product(a,b)     #[(1, 3), (1, 4), (2, 3), (2, 4)]
+prod = product(a,b)     
 
 
-print(list(prod))
+print(list(prod))#[(1, 3), (1, 4), (2, 3), (2, 4)]
 # ///////////////////permutation///////////////
 # ///////////////////
 # ///////////////////

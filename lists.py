@@ -3,7 +3,7 @@ alph= [1.1,2.2,3.3,4.4]
 
 print(num[-2])  # from reverse side
 
-print(num[2:5]) #0[ 3,4,5] i.e index 1 include and index 5 exclude
+print(num[2:5]) #0[ 2,3,2] i.e index 1 include and index 5 exclude
 
 print(num[:2]) # from start upto 2
 print(num[3:]) # from 3 to onward
@@ -69,6 +69,6 @@ for row in two_d_list:
 # List comprehension
 # making a new list from existing list in one line
 l6 = [1,2,3,4,5]
-l7 = [i*1 for i in l6]      # 1,4,9,36.........
+l7 = [i*i for i in l6]      # 1,4,9,36.........
 
 
