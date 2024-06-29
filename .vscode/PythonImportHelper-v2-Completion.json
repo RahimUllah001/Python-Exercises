@@ -1,5 +1,14 @@
 [
     {
+        "label": "collections",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "collections",
+        "description": "collections",
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
         "label": "Counter",
         "importPath": "collections",
         "description": "collections",
@@ -37,6 +46,22 @@
         "description": "collections",
         "isExtraImport": true,
         "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "importPath": "tuples",
+        "description": "tuples",
+        "isExtraImport": true,
+        "detail": "tuples",
         "documentation": {}
     },
     {
@@ -349,7 +374,7 @@
         "kind": 5,
         "importPath": "dictionary",
         "description": "dictionary",
-        "peekOfCode": "months = {\"ist\" : \"jan\",\n          \"sec\": \"feb\"}\nprint(months)\nprint(months.get(\"sec\"))\nprint(months.get(\"third\", \"not presesnt\"))\ndict1 = dict(name = \"rahim\", age = \"4\")     #{'age': '4'}\nprint(dict1)\nprint(dict1[\"age\"])     #4\n# del dict1[\"age\"]        #will delete this\n# dict1.pop(\"age\")        #will remove spcific",
+        "peekOfCode": "months = {\"ist\" : \"jan\",\n          \"sec\": \"feb\"}\nprint(months)\nprint(months.get(\"sec\"))\nprint(months.get(\"third\", \"not presesnt\"))\ndict1 = dict(name = \"rahim\", age = \"4\")     #{'name': 'rahim', 'age': '4'}\nprint(dict1)\nprint(dict1[\"age\"])     #4\n# del dict1[\"age\"]        #will delete this\n# dict1.pop(\"age\")        #will remove spcific",
         "detail": "dictionary",
         "documentation": {}
     },
@@ -358,7 +383,7 @@
         "kind": 5,
         "importPath": "dictionary",
         "description": "dictionary",
-        "peekOfCode": "dict1 = dict(name = \"rahim\", age = \"4\")     #{'age': '4'}\nprint(dict1)\nprint(dict1[\"age\"])     #4\n# del dict1[\"age\"]        #will delete this\n# dict1.pop(\"age\")        #will remove spcific\n# dict1.popitem()     # will remove last one\nif \"name \" in dict1:\n    print(dict1[\"name\"])\ntry:\n    print(dict1[\"phone_number\"])    ",
+        "peekOfCode": "dict1 = dict(name = \"rahim\", age = \"4\")     #{'name': 'rahim', 'age': '4'}\nprint(dict1)\nprint(dict1[\"age\"])     #4\n# del dict1[\"age\"]        #will delete this\n# dict1.pop(\"age\")        #will remove spcific\n# dict1.popitem()     # will remove last one\nif \"name\" in dict1:\n    print(dict1[\"name\"])\ntry:\n    print(dict1[\"phone_number\"])    ",
         "detail": "dictionary",
         "documentation": {}
     },
@@ -367,7 +392,7 @@
         "kind": 5,
         "importPath": "dictionary",
         "description": "dictionary",
-        "peekOfCode": "d1 = {\"name\" :\"aaaaa\", \"age\" :5}\nd2 = {\"name\" :\"rahim\", \"p_number\": 9987}        # name will be updated and phone number will be added\nd1.update(d2)\nprint(d1)\nd3 = {3:5,6:9,8:16}\nprint(d3)\nmytple = (8,7)\nd3 = {mytple:15}\nprint(d3) # {(8,7):15}",
+        "peekOfCode": "d1 = {\"name\" :\"aaaaa\", \"age\" :5}\nd2 = {\"name\" :\"rahim\", \"p_number\": 9987}        # name will be updated and phone number will be added\nd1.update(d2)\nprint(d1)\nd3 = {3:5,6:9,8:16}\nprint(d3)\nmytple = (8,7)\nd3 = {mytple:15}\nprint(d3) # {(8,7):15}\n# to make a dictionary of such whose value are aquare of their keys",
         "detail": "dictionary",
         "documentation": {}
     },
@@ -376,7 +401,7 @@
         "kind": 5,
         "importPath": "dictionary",
         "description": "dictionary",
-        "peekOfCode": "d2 = {\"name\" :\"rahim\", \"p_number\": 9987}        # name will be updated and phone number will be added\nd1.update(d2)\nprint(d1)\nd3 = {3:5,6:9,8:16}\nprint(d3)\nmytple = (8,7)\nd3 = {mytple:15}\nprint(d3) # {(8,7):15}",
+        "peekOfCode": "d2 = {\"name\" :\"rahim\", \"p_number\": 9987}        # name will be updated and phone number will be added\nd1.update(d2)\nprint(d1)\nd3 = {3:5,6:9,8:16}\nprint(d3)\nmytple = (8,7)\nd3 = {mytple:15}\nprint(d3) # {(8,7):15}\n# to make a dictionary of such whose value are aquare of their keys\na = [1,2,3,4,5]",
         "detail": "dictionary",
         "documentation": {}
     },
@@ -385,7 +410,7 @@
         "kind": 5,
         "importPath": "dictionary",
         "description": "dictionary",
-        "peekOfCode": "d3 = {3:5,6:9,8:16}\nprint(d3)\nmytple = (8,7)\nd3 = {mytple:15}\nprint(d3) # {(8,7):15}",
+        "peekOfCode": "d3 = {3:5,6:9,8:16}\nprint(d3)\nmytple = (8,7)\nd3 = {mytple:15}\nprint(d3) # {(8,7):15}\n# to make a dictionary of such whose value are aquare of their keys\na = [1,2,3,4,5]\nd11 = {num:num*num for num in a}\nprint(d11)\n# Example 3: Using Strings",
         "detail": "dictionary",
         "documentation": {}
     },
@@ -394,7 +419,7 @@
         "kind": 5,
         "importPath": "dictionary",
         "description": "dictionary",
-        "peekOfCode": "mytple = (8,7)\nd3 = {mytple:15}\nprint(d3) # {(8,7):15}",
+        "peekOfCode": "mytple = (8,7)\nd3 = {mytple:15}\nprint(d3) # {(8,7):15}\n# to make a dictionary of such whose value are aquare of their keys\na = [1,2,3,4,5]\nd11 = {num:num*num for num in a}\nprint(d11)\n# Example 3: Using Strings\n# Creating a dictionary from a string where keys are characters and values are their ASCII values.\ntext = \"rahim\"",
         "detail": "dictionary",
         "documentation": {}
     },
@@ -403,7 +428,61 @@
         "kind": 5,
         "importPath": "dictionary",
         "description": "dictionary",
-        "peekOfCode": "d3 = {mytple:15}\nprint(d3) # {(8,7):15}",
+        "peekOfCode": "d3 = {mytple:15}\nprint(d3) # {(8,7):15}\n# to make a dictionary of such whose value are aquare of their keys\na = [1,2,3,4,5]\nd11 = {num:num*num for num in a}\nprint(d11)\n# Example 3: Using Strings\n# Creating a dictionary from a string where keys are characters and values are their ASCII values.\ntext = \"rahim\"\nd11 = {keys: ord(keys) for keys in text }",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
+        "peekOfCode": "a = [1,2,3,4,5]\nd11 = {num:num*num for num in a}\nprint(d11)\n# Example 3: Using Strings\n# Creating a dictionary from a string where keys are characters and values are their ASCII values.\ntext = \"rahim\"\nd11 = {keys: ord(keys) for keys in text }\nprint(d11)\n# swapping key and values\noriginal_dict = {'a': 1, 'b': 2, 'c': 3}",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "d11",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
+        "peekOfCode": "d11 = {num:num*num for num in a}\nprint(d11)\n# Example 3: Using Strings\n# Creating a dictionary from a string where keys are characters and values are their ASCII values.\ntext = \"rahim\"\nd11 = {keys: ord(keys) for keys in text }\nprint(d11)\n# swapping key and values\noriginal_dict = {'a': 1, 'b': 2, 'c': 3}\nnew_dict = {value:key for key,value in original_dict.items()}",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
+        "peekOfCode": "text = \"rahim\"\nd11 = {keys: ord(keys) for keys in text }\nprint(d11)\n# swapping key and values\noriginal_dict = {'a': 1, 'b': 2, 'c': 3}\nnew_dict = {value:key for key,value in original_dict.items()}\nprint(new_dict)",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "d11",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
+        "peekOfCode": "d11 = {keys: ord(keys) for keys in text }\nprint(d11)\n# swapping key and values\noriginal_dict = {'a': 1, 'b': 2, 'c': 3}\nnew_dict = {value:key for key,value in original_dict.items()}\nprint(new_dict)",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "original_dict",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
+        "peekOfCode": "original_dict = {'a': 1, 'b': 2, 'c': 3}\nnew_dict = {value:key for key,value in original_dict.items()}\nprint(new_dict)",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "new_dict",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
+        "peekOfCode": "new_dict = {value:key for key,value in original_dict.items()}\nprint(new_dict)",
         "detail": "dictionary",
         "documentation": {}
     },
@@ -421,7 +500,7 @@
         "kind": 5,
         "importPath": "For_loop",
         "description": "For_loop",
-        "peekOfCode": "name = \"rahim\"\nfor letter in name:\n    print(letter) #it will print character of abive srring one by one\nnum = [1,2,3,4,5]\nfor i in num:\n    print(i)\nfor number in range(10):\n    print(number)    \nfriends = ['abc',\"def\", \"jhk\"]\nfor index in  range(len(friends)):",
+        "peekOfCode": "name = \"rahim\"\nfor letter in name:\n    print(letter) #it will print character of above string one by one\nnum = [1,2,3,4,5]\nfor i in num:\n    print(i)\nfor number in range(10):\n    print(number)    \nfriends = ['abc',\"def\", \"jhk\"]\nfor index in  range(len(friends)):",
         "detail": "For_loop",
         "documentation": {}
     },
@@ -448,7 +527,7 @@
         "kind": 2,
         "importPath": "ftn",
         "description": "ftn",
-        "peekOfCode": "def say_hi(name,age):\n    print(\"hello \" + name + \"you are \"+ str(age) )\nprint(\"rahim\")\nsay_hi(\"rahim\", 23)    # apiece of informaiton that is given to function\n# Return statements\ndef cube(num):\n    return num*num*num\nprint(cube(5))",
+        "peekOfCode": "def say_hi(name,age):\n    print(\"hello \" + name + \"you are \"+ str(age) )\nprint(\"rahim\")\nsay_hi(\"rahim\", 23)    # a piece of informaiton that is given to function\n# Return statements\ndef cube(num):\n    return num*num*num\nprint(cube(5))",
         "detail": "ftn",
         "documentation": {}
     },
@@ -502,7 +581,7 @@
         "kind": 5,
         "importPath": "if_statements",
         "description": "if_statements",
-        "peekOfCode": "marks = 45\ngradute = True\nmale = True\nif marks >= 50:\n    print(\"you are pass\")   \nelif male and gradute:\n    print(\"you are male\")\nelse:                   # we cannot put condition in else \n    print(\"best of luck for next time\")        \n# comparison through if statements",
+        "peekOfCode": "marks = 45\ngradute = True\nmale = True\nif marks >= 50:\n    print(\"you are pass\")   \nelif male and gradute:\n    print(\"you are male\")\nelse:                                       # we cannot put condition in else \n    print(\"best of luck for next time\")        \n# comparison through if statements",
         "detail": "if_statements",
         "documentation": {}
     },
@@ -511,7 +590,7 @@
         "kind": 5,
         "importPath": "if_statements",
         "description": "if_statements",
-        "peekOfCode": "gradute = True\nmale = True\nif marks >= 50:\n    print(\"you are pass\")   \nelif male and gradute:\n    print(\"you are male\")\nelse:                   # we cannot put condition in else \n    print(\"best of luck for next time\")        \n# comparison through if statements\n    #  == comparison operator",
+        "peekOfCode": "gradute = True\nmale = True\nif marks >= 50:\n    print(\"you are pass\")   \nelif male and gradute:\n    print(\"you are male\")\nelse:                                       # we cannot put condition in else \n    print(\"best of luck for next time\")        \n# comparison through if statements\n    #  == comparison operator",
         "detail": "if_statements",
         "documentation": {}
     },
@@ -520,7 +599,7 @@
         "kind": 5,
         "importPath": "if_statements",
         "description": "if_statements",
-        "peekOfCode": "male = True\nif marks >= 50:\n    print(\"you are pass\")   \nelif male and gradute:\n    print(\"you are male\")\nelse:                   # we cannot put condition in else \n    print(\"best of luck for next time\")        \n# comparison through if statements\n    #  == comparison operator\ndef max(num1, num2, num3):",
+        "peekOfCode": "male = True\nif marks >= 50:\n    print(\"you are pass\")   \nelif male and gradute:\n    print(\"you are male\")\nelse:                                       # we cannot put condition in else \n    print(\"best of luck for next time\")        \n# comparison through if statements\n    #  == comparison operator\ndef max(num1, num2, num3):",
         "detail": "if_statements",
         "documentation": {}
     },
@@ -718,7 +797,7 @@
         "kind": 5,
         "importPath": "lists",
         "description": "lists",
-        "peekOfCode": "l6 = [1,2,3,4,5]\nl7 = [i*i for i in l6]      # 1,4,9,36.........",
+        "peekOfCode": "l6 = [1,2,3,4,5]\nl7 = [i*i for i in l6]      # 1,4,9,36.........\nimport collections\nfrom collections import Counter\n# list comprehension\nl5 = [1,2,3,4,5,6,7,8]\nl6 = [i*i for i in l5 if i==3 or i == 5]\nprint(l6)\n# how to count numbers in the array\na = 'kkkffffffffhhhhhhhhs';",
         "detail": "lists",
         "documentation": {}
     },
@@ -727,7 +806,304 @@
         "kind": 5,
         "importPath": "lists",
         "description": "lists",
-        "peekOfCode": "l7 = [i*i for i in l6]      # 1,4,9,36.........",
+        "peekOfCode": "l7 = [i*i for i in l6]      # 1,4,9,36.........\nimport collections\nfrom collections import Counter\n# list comprehension\nl5 = [1,2,3,4,5,6,7,8]\nl6 = [i*i for i in l5 if i==3 or i == 5]\nprint(l6)\n# how to count numbers in the array\na = 'kkkffffffffhhhhhhhhs';\nchar_in_dict = {}",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "l5",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "l5 = [1,2,3,4,5,6,7,8]\nl6 = [i*i for i in l5 if i==3 or i == 5]\nprint(l6)\n# how to count numbers in the array\na = 'kkkffffffffhhhhhhhhs';\nchar_in_dict = {}\nfor char in a:\n    if char in char_in_dict:\n        char_in_dict[char] +=1 \n    else:",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "l6",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "l6 = [i*i for i in l5 if i==3 or i == 5]\nprint(l6)\n# how to count numbers in the array\na = 'kkkffffffffhhhhhhhhs';\nchar_in_dict = {}\nfor char in a:\n    if char in char_in_dict:\n        char_in_dict[char] +=1 \n    else:\n        char_in_dict[char] = 1",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "a = 'kkkffffffffhhhhhhhhs';\nchar_in_dict = {}\nfor char in a:\n    if char in char_in_dict:\n        char_in_dict[char] +=1 \n    else:\n        char_in_dict[char] = 1\nprint(char_in_dict)\nb = Counter(a)\nprint(b)",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "char_in_dict",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "char_in_dict = {}\nfor char in a:\n    if char in char_in_dict:\n        char_in_dict[char] +=1 \n    else:\n        char_in_dict[char] = 1\nprint(char_in_dict)\nb = Counter(a)\nprint(b)\n# how to remove duplicaaes without changing their position",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "b = Counter(a)\nprint(b)\n# how to remove duplicaaes without changing their position\n# how to remove duplicattrs number from list\na = [5,7,8,1,2,3,5,7,8,4,3,5,6,7]\nb = set(a)\nz = list(b)\nprint(b)\nprint(a)\nprint(z)",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "a = [5,7,8,1,2,3,5,7,8,4,3,5,6,7]\nb = set(a)\nz = list(b)\nprint(b)\nprint(a)\nprint(z)\n# how to remove duplicaaes without changing their position\na = [5,7,8,1,2,3,5,7,8,4,3,5,6,7]\nb = set(a)\na = [5,7,8,1,2,3,5,7,8,4,3,5,6,7]",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "b = set(a)\nz = list(b)\nprint(b)\nprint(a)\nprint(z)\n# how to remove duplicaaes without changing their position\na = [5,7,8,1,2,3,5,7,8,4,3,5,6,7]\nb = set(a)\na = [5,7,8,1,2,3,5,7,8,4,3,5,6,7]\nc = set()",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "z = list(b)\nprint(b)\nprint(a)\nprint(z)\n# how to remove duplicaaes without changing their position\na = [5,7,8,1,2,3,5,7,8,4,3,5,6,7]\nb = set(a)\na = [5,7,8,1,2,3,5,7,8,4,3,5,6,7]\nc = set()\nunique_list = []",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "a = [5,7,8,1,2,3,5,7,8,4,3,5,6,7]\nb = set(a)\na = [5,7,8,1,2,3,5,7,8,4,3,5,6,7]\nc = set()\nunique_list = []\nfor i in a:\n    if i  not in c:\n        unique_list.append(i)\n        c.add(i)\nprint(unique_list)",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "b = set(a)\na = [5,7,8,1,2,3,5,7,8,4,3,5,6,7]\nc = set()\nunique_list = []\nfor i in a:\n    if i  not in c:\n        unique_list.append(i)\n        c.add(i)\nprint(unique_list)\n# ",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "a = [5,7,8,1,2,3,5,7,8,4,3,5,6,7]\nc = set()\nunique_list = []\nfor i in a:\n    if i  not in c:\n        unique_list.append(i)\n        c.add(i)\nprint(unique_list)\n# \nprint(\"How would you merge two sorted lists into a single sorted list?\")",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "c = set()\nunique_list = []\nfor i in a:\n    if i  not in c:\n        unique_list.append(i)\n        c.add(i)\nprint(unique_list)\n# \nprint(\"How would you merge two sorted lists into a single sorted list?\")\ns1 = [1,3,4,5,7]",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "unique_list",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "unique_list = []\nfor i in a:\n    if i  not in c:\n        unique_list.append(i)\n        c.add(i)\nprint(unique_list)\n# \nprint(\"How would you merge two sorted lists into a single sorted list?\")\ns1 = [1,3,4,5,7]\ns2 = [0,1,2,4,5,7,8]",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "s1 = [1,3,4,5,7]\ns2 = [0,1,2,4,5,7,8]\ns3 = []\nprint(s1)\nprint(s2)\ns1 = [1, 3, 4, 5, 7]\ns2 = [0, 1, 2, 4, 5, 7, 8]\ns3 = []\ni, j = 0, 0  # Pointers for s1 and s2\nwhile i < len(s1) and j < len(s2):",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "s2 = [0,1,2,4,5,7,8]\ns3 = []\nprint(s1)\nprint(s2)\ns1 = [1, 3, 4, 5, 7]\ns2 = [0, 1, 2, 4, 5, 7, 8]\ns3 = []\ni, j = 0, 0  # Pointers for s1 and s2\nwhile i < len(s1) and j < len(s2):\n    if s1[i] < s2[j]:",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "s3",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "s3 = []\nprint(s1)\nprint(s2)\ns1 = [1, 3, 4, 5, 7]\ns2 = [0, 1, 2, 4, 5, 7, 8]\ns3 = []\ni, j = 0, 0  # Pointers for s1 and s2\nwhile i < len(s1) and j < len(s2):\n    if s1[i] < s2[j]:\n        s3.append(s1[i])",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "s1 = [1, 3, 4, 5, 7]\ns2 = [0, 1, 2, 4, 5, 7, 8]\ns3 = []\ni, j = 0, 0  # Pointers for s1 and s2\nwhile i < len(s1) and j < len(s2):\n    if s1[i] < s2[j]:\n        s3.append(s1[i])\n        i += 1\n    else:\n        s3.append(s2[j])",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "s2 = [0, 1, 2, 4, 5, 7, 8]\ns3 = []\ni, j = 0, 0  # Pointers for s1 and s2\nwhile i < len(s1) and j < len(s2):\n    if s1[i] < s2[j]:\n        s3.append(s1[i])\n        i += 1\n    else:\n        s3.append(s2[j])\n        j += 1",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "s3",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "s3 = []\ni, j = 0, 0  # Pointers for s1 and s2\nwhile i < len(s1) and j < len(s2):\n    if s1[i] < s2[j]:\n        s3.append(s1[i])\n        i += 1\n    else:\n        s3.append(s2[j])\n        j += 1\n# Append remaining elements if any",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "i = 0\nj = 1\nmax = l1[0]\nfor i in range(len(l1)):\n    if max < l1[i]:\n        max = l1[i]\nprint(max)\nmin = l1[0]\nfor i in range(len(l1)):\n    if min > l1[i]:",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "j",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "j = 1\nmax = l1[0]\nfor i in range(len(l1)):\n    if max < l1[i]:\n        max = l1[i]\nprint(max)\nmin = l1[0]\nfor i in range(len(l1)):\n    if min > l1[i]:\n        min = l1[i]",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "max",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "max = l1[0]\nfor i in range(len(l1)):\n    if max < l1[i]:\n        max = l1[i]\nprint(max)\nmin = l1[0]\nfor i in range(len(l1)):\n    if min > l1[i]:\n        min = l1[i]\nprint(min)",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "min",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "min = l1[0]\nfor i in range(len(l1)):\n    if min > l1[i]:\n        min = l1[i]\nprint(min)\nd1 = {}\nd2 = dict()\nd1 = {\"name\":\"rahim\"}\nd2 = {\"age\":\"23\"}\nd1.update(d2)",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "d1",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "d1 = {}\nd2 = dict()\nd1 = {\"name\":\"rahim\"}\nd2 = {\"age\":\"23\"}\nd1.update(d2)\nprint(d1)\nprint(d2)\n# how to iterate over dictionary\nfor keys,values in d1.items():\n    print(keys,values)",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "d2",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "d2 = dict()\nd1 = {\"name\":\"rahim\"}\nd2 = {\"age\":\"23\"}\nd1.update(d2)\nprint(d1)\nprint(d2)\n# how to iterate over dictionary\nfor keys,values in d1.items():\n    print(keys,values)\n# merging two dictionaries",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "d1",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "d1 = {\"name\":\"rahim\"}\nd2 = {\"age\":\"23\"}\nd1.update(d2)\nprint(d1)\nprint(d2)\n# how to iterate over dictionary\nfor keys,values in d1.items():\n    print(keys,values)\n# merging two dictionaries\nd1.update(d2)",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "d2",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "d2 = {\"age\":\"23\"}\nd1.update(d2)\nprint(d1)\nprint(d2)\n# how to iterate over dictionary\nfor keys,values in d1.items():\n    print(keys,values)\n# merging two dictionaries\nd1.update(d2)\nd3 = {**d1, **d2}",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "d3",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "d3 = {**d1, **d2}\n# how to remove data from a dictionary\n# del d3[\"age\"]\nd3.pop(\"name\")\nprint(d3)\n# to check existance of key\nif \"age\" in d3:\n    print(\"age of Rahim: \", d3[\"age\"])\n# Dictionary comprehension\n# how ot find  frequency of word",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "elements",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "elements = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']\nfequency_of_items = {item: elements.count(item) for item in elements}\nprint(fequency_of_items)\n# Example 6: Combining Two Lists into a Dictionary\nkeys = [\"1\",\"2\", \"3\",\"4\",\"5\",\"6\"]\nvalues = [\"a\",\"b\",\"c\",\"d\",\"f\",\"g\"]\ncombined_list_as_dict = {keys[i]:values[i] for i in range(len(keys))}\nprint(combined_list_as_dict)",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "fequency_of_items",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "fequency_of_items = {item: elements.count(item) for item in elements}\nprint(fequency_of_items)\n# Example 6: Combining Two Lists into a Dictionary\nkeys = [\"1\",\"2\", \"3\",\"4\",\"5\",\"6\"]\nvalues = [\"a\",\"b\",\"c\",\"d\",\"f\",\"g\"]\ncombined_list_as_dict = {keys[i]:values[i] for i in range(len(keys))}\nprint(combined_list_as_dict)",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "keys",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "keys = [\"1\",\"2\", \"3\",\"4\",\"5\",\"6\"]\nvalues = [\"a\",\"b\",\"c\",\"d\",\"f\",\"g\"]\ncombined_list_as_dict = {keys[i]:values[i] for i in range(len(keys))}\nprint(combined_list_as_dict)",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "values = [\"a\",\"b\",\"c\",\"d\",\"f\",\"g\"]\ncombined_list_as_dict = {keys[i]:values[i] for i in range(len(keys))}\nprint(combined_list_as_dict)",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "combined_list_as_dict",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "combined_list_as_dict = {keys[i]:values[i] for i in range(len(keys))}\nprint(combined_list_as_dict)",
         "detail": "lists",
         "documentation": {}
     },
@@ -790,7 +1166,7 @@
         "kind": 5,
         "importPath": "nmbr",
         "description": "nmbr",
-        "peekOfCode": "num = 5\nnum = str(num)\nprint(type(num))  #type = str\n# abs(num) give absolute number\n# pow(3,2) = 3^2\n# max(4,5) gi e high number min(6,7)\n#  round(3.7)  == 4\n# by importing  \"\"\"\" from math import * ==> floor(3.7) == 3, ceil(3.7) == 4\n# sqrt(36) == 6\n#",
+        "peekOfCode": "num = 5\nnum = str(num)\nprint(type(num))  #type = str\n# abs(num) give absolute number\n# pow(3,2) = 3^2\n# max(4,5) give high number min(6,7)\n#  round(3.7)  == 4\n# by importing  \"\"\"\" from math import * ==> floor(3.7) == 3, ceil(3.7) == 4\n# sqrt(36) == 6\n#",
         "detail": "nmbr",
         "documentation": {}
     },
@@ -799,7 +1175,7 @@
         "kind": 5,
         "importPath": "nmbr",
         "description": "nmbr",
-        "peekOfCode": "num = str(num)\nprint(type(num))  #type = str\n# abs(num) give absolute number\n# pow(3,2) = 3^2\n# max(4,5) gi e high number min(6,7)\n#  round(3.7)  == 4\n# by importing  \"\"\"\" from math import * ==> floor(3.7) == 3, ceil(3.7) == 4\n# sqrt(36) == 6\n#",
+        "peekOfCode": "num = str(num)\nprint(type(num))  #type = str\n# abs(num) give absolute number\n# pow(3,2) = 3^2\n# max(4,5) give high number min(6,7)\n#  round(3.7)  == 4\n# by importing  \"\"\"\" from math import * ==> floor(3.7) == 3, ceil(3.7) == 4\n# sqrt(36) == 6\n#",
         "detail": "nmbr",
         "documentation": {}
     },
@@ -871,7 +1247,7 @@
         "kind": 5,
         "importPath": "sets",
         "description": "sets",
-        "peekOfCode": "even = {0,2,4,6,8}\nprime ={2,3,5,7,11}\nu= odd.union(even)\nn = prime.intersection(odd)\nprint(u)\nprint(n)\ndiff = prime.difference(odd)\nprint(diff)\ndiffsymtric = prime.symmetric_difference(odd)\nprint(diffsymtric)      #will give all the element sof both sets except the common one",
+        "peekOfCode": "even = {0,2,4,6,8}\nprime ={2,3,5,7,11}\nu= odd.union(even)\nn = prime.intersection(odd)\nprint(u)\nprint(n)\ndiff = prime.difference(odd)\nprint(diff)\ndiffsymtric = prime.symmetric_difference(odd)\nprint(diffsymtric)      #will give all the element of both sets except the common one",
         "detail": "sets",
         "documentation": {}
     },
@@ -880,7 +1256,7 @@
         "kind": 5,
         "importPath": "sets",
         "description": "sets",
-        "peekOfCode": "n = prime.intersection(odd)\nprint(u)\nprint(n)\ndiff = prime.difference(odd)\nprint(diff)\ndiffsymtric = prime.symmetric_difference(odd)\nprint(diffsymtric)      #will give all the element sof both sets except the common one\nsetA = {1,2,3,4,5,6}\nsetB = { 7,8,9,0}\nsetA.update(setB)",
+        "peekOfCode": "n = prime.intersection(odd)\nprint(u)\nprint(n)\ndiff = prime.difference(odd)\nprint(diff)\ndiffsymtric = prime.symmetric_difference(odd)\nprint(diffsymtric)      #will give all the element of both sets except the common one\nsetA = {1,2,3,4,5,6}\nsetB = { 7,8,9,0}\nsetA.update(setB)",
         "detail": "sets",
         "documentation": {}
     },
@@ -889,7 +1265,7 @@
         "kind": 5,
         "importPath": "sets",
         "description": "sets",
-        "peekOfCode": "diff = prime.difference(odd)\nprint(diff)\ndiffsymtric = prime.symmetric_difference(odd)\nprint(diffsymtric)      #will give all the element sof both sets except the common one\nsetA = {1,2,3,4,5,6}\nsetB = { 7,8,9,0}\nsetA.update(setB)\nprint(setA)\nprint(setA.issubset(setB))# false\nprint(setA.issuperset(setB))# true",
+        "peekOfCode": "diff = prime.difference(odd)\nprint(diff)\ndiffsymtric = prime.symmetric_difference(odd)\nprint(diffsymtric)      #will give all the element of both sets except the common one\nsetA = {1,2,3,4,5,6}\nsetB = { 7,8,9,0}\nsetA.update(setB)\nprint(setA)\nprint(setA.issubset(setB))# false\nprint(setA.issuperset(setB))# true",
         "detail": "sets",
         "documentation": {}
     },
@@ -898,7 +1274,7 @@
         "kind": 5,
         "importPath": "sets",
         "description": "sets",
-        "peekOfCode": "diffsymtric = prime.symmetric_difference(odd)\nprint(diffsymtric)      #will give all the element sof both sets except the common one\nsetA = {1,2,3,4,5,6}\nsetB = { 7,8,9,0}\nsetA.update(setB)\nprint(setA)\nprint(setA.issubset(setB))# false\nprint(setA.issuperset(setB))# true\nprint(setB.issubset(setA))#true\nprint(setB.isdisjoint(setA))#false",
+        "peekOfCode": "diffsymtric = prime.symmetric_difference(odd)\nprint(diffsymtric)      #will give all the element of both sets except the common one\nsetA = {1,2,3,4,5,6}\nsetB = { 7,8,9,0}\nsetA.update(setB)\nprint(setA)\nprint(setA.issubset(setB))# false\nprint(setA.issuperset(setB))# true\nprint(setB.issubset(setA))#true\nprint(setB.isdisjoint(setA))#false",
         "detail": "sets",
         "documentation": {}
     },
@@ -943,7 +1319,7 @@
         "kind": 5,
         "importPath": "strings",
         "description": "strings",
-        "peekOfCode": "my_profession = my_profession.upper()\nprint(my_profession.isupper()) # now it will give expected result i.e True\nname = \"Rahim\"\nprint(id(name)) #memory address\nprint(len(my_profession)) #the length of the string\nprint(my_profession[0])  # to take the individual character\nmy_profession = \"Web Development\"\nprint(my_profession.index(\"l\"))  # to find the index of character i.e 8\nprint( my_profession.replace(\"Web\",\"App\")) #to replace xxxxx\nmystring = \"\"\" hello   ",
+        "peekOfCode": "my_profession = my_profession.upper()\nprint(my_profession.isupper()) # now it will give expected result i.e True\nname = \"Rahim\"\nprint(id(name)) #memory address\nprint(len(my_profession)) #the length of the string\nprint(my_profession[0])  # to take the individual character\nmy_profession = \"Web Development\"\nprint(my_profession.index(\"l\"))  # to find the index of character i.e 8\nprint( my_profession.replace(\"Web\",\"App\")) #to replace \nmystring = \"\"\"hello   ",
         "detail": "strings",
         "documentation": {}
     },
@@ -952,7 +1328,7 @@
         "kind": 5,
         "importPath": "strings",
         "description": "strings",
-        "peekOfCode": "name = \"Rahim\"\nprint(id(name)) #memory address\nprint(len(my_profession)) #the length of the string\nprint(my_profession[0])  # to take the individual character\nmy_profession = \"Web Development\"\nprint(my_profession.index(\"l\"))  # to find the index of character i.e 8\nprint( my_profession.replace(\"Web\",\"App\")) #to replace xxxxx\nmystring = \"\"\" hello   \n    world\"\"\"\nprint(mystring)     #hello and world in new line",
+        "peekOfCode": "name = \"Rahim\"\nprint(id(name)) #memory address\nprint(len(my_profession)) #the length of the string\nprint(my_profession[0])  # to take the individual character\nmy_profession = \"Web Development\"\nprint(my_profession.index(\"l\"))  # to find the index of character i.e 8\nprint( my_profession.replace(\"Web\",\"App\")) #to replace \nmystring = \"\"\"hello   \nworld\"\"\"\nprint(mystring)     #hello and world in new line",
         "detail": "strings",
         "documentation": {}
     },
@@ -961,7 +1337,7 @@
         "kind": 5,
         "importPath": "strings",
         "description": "strings",
-        "peekOfCode": "my_profession = \"Web Development\"\nprint(my_profession.index(\"l\"))  # to find the index of character i.e 8\nprint( my_profession.replace(\"Web\",\"App\")) #to replace xxxxx\nmystring = \"\"\" hello   \n    world\"\"\"\nprint(mystring)     #hello and world in new line\nmystring1 = \"\"\"                 hello   \\\n    world\"\"\"\nprint(mystring1)        # hello         world\n# /////////////////////////////////////////////////////////////////////",
+        "peekOfCode": "my_profession = \"Web Development\"\nprint(my_profession.index(\"l\"))  # to find the index of character i.e 8\nprint( my_profession.replace(\"Web\",\"App\")) #to replace \nmystring = \"\"\"hello   \nworld\"\"\"\nprint(mystring)     #hello and world in new line\nmystring1 = \"\"\"                 hello   \\\n    world\"\"\"\nprint(mystring1)        # hello         world\n# /////////////////////////////////////////////////////////////////////",
         "detail": "strings",
         "documentation": {}
     },
@@ -970,7 +1346,7 @@
         "kind": 5,
         "importPath": "strings",
         "description": "strings",
-        "peekOfCode": "mystring = \"\"\" hello   \n    world\"\"\"\nprint(mystring)     #hello and world in new line\nmystring1 = \"\"\"                 hello   \\\n    world\"\"\"\nprint(mystring1)        # hello         world\n# /////////////////////////////////////////////////////////////////////\n# string also  supports slicing\nprint(mystring1.strip())    #can remove the extra space in start and after\n# .startwith and .endswith  checks the start and last",
+        "peekOfCode": "mystring = \"\"\"hello   \nworld\"\"\"\nprint(mystring)     #hello and world in new line\nmystring1 = \"\"\"                 hello   \\\n    world\"\"\"\nprint(mystring1)        # hello         world\n# /////////////////////////////////////////////////////////////////////\n# string also  supports slicing\nprint(mystring1.strip())    #can remove the extra space in start and after\n# .startwith and .endswith  checks the start and last",
         "detail": "strings",
         "documentation": {}
     },
@@ -988,7 +1364,7 @@
         "kind": 5,
         "importPath": "strings",
         "description": "strings",
-        "peekOfCode": "mylist = mystring.split() # string to list\nprint(mylist)       #['hello','world']\nnewstring = ' '.join(mylist)\nprint(newstring)        #hello world",
+        "peekOfCode": "mylist = mystring.split() # string to list\nprint(mylist)       #['hello','world']\nnewstring = ' '.join(mylist)\nprint(newstring)        #hello world\n# revere a string\ns1 = 'rahim'\ns2 = s1[::-1]\nprint(s2)\ns1 = \"abdulsamad\"\ns2 = ''",
         "detail": "strings",
         "documentation": {}
     },
@@ -997,7 +1373,214 @@
         "kind": 5,
         "importPath": "strings",
         "description": "strings",
-        "peekOfCode": "newstring = ' '.join(mylist)\nprint(newstring)        #hello world",
+        "peekOfCode": "newstring = ' '.join(mylist)\nprint(newstring)        #hello world\n# revere a string\ns1 = 'rahim'\ns2 = s1[::-1]\nprint(s2)\ns1 = \"abdulsamad\"\ns2 = ''\nj = len(s1)-1\nwhile j >= 0:",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "s1 = 'rahim'\ns2 = s1[::-1]\nprint(s2)\ns1 = \"abdulsamad\"\ns2 = ''\nj = len(s1)-1\nwhile j >= 0:\n    s2 += s1[j]\n    j -= 1\nprint(s2)",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "s2 = s1[::-1]\nprint(s2)\ns1 = \"abdulsamad\"\ns2 = ''\nj = len(s1)-1\nwhile j >= 0:\n    s2 += s1[j]\n    j -= 1\nprint(s2)\n# to check palindrome",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "s1 = \"abdulsamad\"\ns2 = ''\nj = len(s1)-1\nwhile j >= 0:\n    s2 += s1[j]\n    j -= 1\nprint(s2)\n# to check palindrome\nsp = \"karak\"\nj = len(sp)-1 ",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "s2 = ''\nj = len(s1)-1\nwhile j >= 0:\n    s2 += s1[j]\n    j -= 1\nprint(s2)\n# to check palindrome\nsp = \"karak\"\nj = len(sp)-1 \ni = 0",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "j",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "j = len(s1)-1\nwhile j >= 0:\n    s2 += s1[j]\n    j -= 1\nprint(s2)\n# to check palindrome\nsp = \"karak\"\nj = len(sp)-1 \ni = 0\nwhile j >= 0:",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "sp",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "sp = \"karak\"\nj = len(sp)-1 \ni = 0\nwhile j >= 0:\n    if sp[i] == sp[j]:\n        j -= 1\n        i += 1\n    else:\n        break\nif i == len(sp) :",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "j",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "j = len(sp)-1 \ni = 0\nwhile j >= 0:\n    if sp[i] == sp[j]:\n        j -= 1\n        i += 1\n    else:\n        break\nif i == len(sp) :\n    print(\"palidndrome\")",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "i = 0\nwhile j >= 0:\n    if sp[i] == sp[j]:\n        j -= 1\n        i += 1\n    else:\n        break\nif i == len(sp) :\n    print(\"palidndrome\")\n# easiest way of checking palindrome",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "phrase",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "phrase = \"rahim\"\nvow = 0\ncons = 0\nvowels = \"aeiou\"\nfor i in phrase:\n    if i in vowels:\n        vow += 1\n    else:\n        cons += 1\nprint(f\"vowels = {vow} and consonants = {cons}\")",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "vow",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "vow = 0\ncons = 0\nvowels = \"aeiou\"\nfor i in phrase:\n    if i in vowels:\n        vow += 1\n    else:\n        cons += 1\nprint(f\"vowels = {vow} and consonants = {cons}\")\n# python program that remove dublicates from string",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "cons",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "cons = 0\nvowels = \"aeiou\"\nfor i in phrase:\n    if i in vowels:\n        vow += 1\n    else:\n        cons += 1\nprint(f\"vowels = {vow} and consonants = {cons}\")\n# python program that remove dublicates from string\na = \"applewazir\"",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "vowels",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "vowels = \"aeiou\"\nfor i in phrase:\n    if i in vowels:\n        vow += 1\n    else:\n        cons += 1\nprint(f\"vowels = {vow} and consonants = {cons}\")\n# python program that remove dublicates from string\na = \"applewazir\"\nnon_duplicate = ''",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "print(f\"vowels",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "print(f\"vowels = {vow} and consonants = {cons}\")\n# python program that remove dublicates from string\na = \"applewazir\"\nnon_duplicate = ''\nfor i in a:\n    if i not in non_duplicate:\n       non_duplicate =non_duplicate + i\nprint(non_duplicate)\n# longest_word(\"The quick brown fox jumps over the lazy dog\")  # Output: \"jumps\"\na = \"The quick brown fox jumps over the lazy dog\"",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "a = \"applewazir\"\nnon_duplicate = ''\nfor i in a:\n    if i not in non_duplicate:\n       non_duplicate =non_duplicate + i\nprint(non_duplicate)\n# longest_word(\"The quick brown fox jumps over the lazy dog\")  # Output: \"jumps\"\na = \"The quick brown fox jumps over the lazy dog\"\nwords = a.split()\nlongest_word = \"\"",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "non_duplicate",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "non_duplicate = ''\nfor i in a:\n    if i not in non_duplicate:\n       non_duplicate =non_duplicate + i\nprint(non_duplicate)\n# longest_word(\"The quick brown fox jumps over the lazy dog\")  # Output: \"jumps\"\na = \"The quick brown fox jumps over the lazy dog\"\nwords = a.split()\nlongest_word = \"\"\nfor word in words:",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "a = \"The quick brown fox jumps over the lazy dog\"\nwords = a.split()\nlongest_word = \"\"\nfor word in words:\n    if len(word) > len(longest_word):\n        longest_word = word\nprint(longest_word)\n# find the number of words in phrase\na = \"The quick brown fox jumps over the lazy dog\"\nwords = a.split()",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "words = a.split()\nlongest_word = \"\"\nfor word in words:\n    if len(word) > len(longest_word):\n        longest_word = word\nprint(longest_word)\n# find the number of words in phrase\na = \"The quick brown fox jumps over the lazy dog\"\nwords = a.split()\nb = len(words)",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "longest_word",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "longest_word = \"\"\nfor word in words:\n    if len(word) > len(longest_word):\n        longest_word = word\nprint(longest_word)\n# find the number of words in phrase\na = \"The quick brown fox jumps over the lazy dog\"\nwords = a.split()\nb = len(words)\nprint(\"The number of wrods in a given phrase is \", b)",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "a = \"The quick brown fox jumps over the lazy dog\"\nwords = a.split()\nb = len(words)\nprint(\"The number of wrods in a given phrase is \", b)\n# Write a function that checks if two given strings are anagrams (contain the same characters in different order)\ns1 = \"sieent\"\ns2 = \"listen\"\nif sorted(s1) == sorted(s2) :\n    print(\"anagram\")",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "words = a.split()\nb = len(words)\nprint(\"The number of wrods in a given phrase is \", b)\n# Write a function that checks if two given strings are anagrams (contain the same characters in different order)\ns1 = \"sieent\"\ns2 = \"listen\"\nif sorted(s1) == sorted(s2) :\n    print(\"anagram\")",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "b = len(words)\nprint(\"The number of wrods in a given phrase is \", b)\n# Write a function that checks if two given strings are anagrams (contain the same characters in different order)\ns1 = \"sieent\"\ns2 = \"listen\"\nif sorted(s1) == sorted(s2) :\n    print(\"anagram\")",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "s1 = \"sieent\"\ns2 = \"listen\"\nif sorted(s1) == sorted(s2) :\n    print(\"anagram\")",
+        "detail": "strings",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "strings",
+        "description": "strings",
+        "peekOfCode": "s2 = \"listen\"\nif sorted(s1) == sorted(s2) :\n    print(\"anagram\")",
         "detail": "strings",
         "documentation": {}
     },
@@ -1105,7 +1688,7 @@
         "kind": 5,
         "importPath": "tuples",
         "description": "tuples",
-        "peekOfCode": "list1 = [\"hello\",1,2,3,True]\ntple1 = tuple([\"hello\",1,2,3,True])\nprint(sys.getsizeof(list1),\"bytes\")\nprint(sys.getsizeof(tple1),\"bytes\")     #tuples posses less space than list and is more efficent than list while dealing large data\nprint(timeit.timeit(stmt=\"[1,2,3,4,5,6]\",number=10000000))\nprint(timeit.timeit(stmt=\"(1,2,3,4,5,6)\",number=10000000)) #if we repeat the give number 10000000 time the list creation will take 0.3 greater time than tuple\n# ///////////////////////////////////////////////////////////////////////////////////",
+        "peekOfCode": "list1 = [\"hello\",1,2,3,True]\ntple1 = tuple([\"hello\",1,2,3,True])\nprint(sys.getsizeof(list1),\"bytes\")\nprint(sys.getsizeof(tple1),\"bytes\")     #tuples posses less space than list and is more efficent than list while dealing large data\nprint(timeit.timeit(stmt=\"[1,2,3,4,5,6]\",number=10000000))\nprint(timeit.timeit(stmt=\"(1,2,3,4,5,6)\",number=10000000)) #if we repeat the give number 10000000 time the list creation will take 0.3 greater time than tuple\n# ///////////////////////////////////////////////////////////////////////////////////\nt5 = (1,2,3,4)\nt6 = (6,7,8)\nt7 = t5 + t6",
         "detail": "tuples",
         "documentation": {}
     },
@@ -1114,7 +1697,169 @@
         "kind": 5,
         "importPath": "tuples",
         "description": "tuples",
-        "peekOfCode": "tple1 = tuple([\"hello\",1,2,3,True])\nprint(sys.getsizeof(list1),\"bytes\")\nprint(sys.getsizeof(tple1),\"bytes\")     #tuples posses less space than list and is more efficent than list while dealing large data\nprint(timeit.timeit(stmt=\"[1,2,3,4,5,6]\",number=10000000))\nprint(timeit.timeit(stmt=\"(1,2,3,4,5,6)\",number=10000000)) #if we repeat the give number 10000000 time the list creation will take 0.3 greater time than tuple\n# ///////////////////////////////////////////////////////////////////////////////////",
+        "peekOfCode": "tple1 = tuple([\"hello\",1,2,3,True])\nprint(sys.getsizeof(list1),\"bytes\")\nprint(sys.getsizeof(tple1),\"bytes\")     #tuples posses less space than list and is more efficent than list while dealing large data\nprint(timeit.timeit(stmt=\"[1,2,3,4,5,6]\",number=10000000))\nprint(timeit.timeit(stmt=\"(1,2,3,4,5,6)\",number=10000000)) #if we repeat the give number 10000000 time the list creation will take 0.3 greater time than tuple\n# ///////////////////////////////////////////////////////////////////////////////////\nt5 = (1,2,3,4)\nt6 = (6,7,8)\nt7 = t5 + t6\nprint(t7)",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "t5",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "t5 = (1,2,3,4)\nt6 = (6,7,8)\nt7 = t5 + t6\nprint(t7)\nl1 = list(t7)\nprint(l1)\n# How would you create a tuple with a single element?\nt1 = (1,)\nt2 = (1)\nt3 = ()",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "t6",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "t6 = (6,7,8)\nt7 = t5 + t6\nprint(t7)\nl1 = list(t7)\nprint(l1)\n# How would you create a tuple with a single element?\nt1 = (1,)\nt2 = (1)\nt3 = ()\nt5 = set( )",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "t7",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "t7 = t5 + t6\nprint(t7)\nl1 = list(t7)\nprint(l1)\n# How would you create a tuple with a single element?\nt1 = (1,)\nt2 = (1)\nt3 = ()\nt5 = set( )\nt4 = (1,2,4,7,9)",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "l1",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "l1 = list(t7)\nprint(l1)\n# How would you create a tuple with a single element?\nt1 = (1,)\nt2 = (1)\nt3 = ()\nt5 = set( )\nt4 = (1,2,4,7,9)\nprint(type(t1))\nprint(type(t2))",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "t1",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "t1 = (1,)\nt2 = (1)\nt3 = ()\nt5 = set( )\nt4 = (1,2,4,7,9)\nprint(type(t1))\nprint(type(t2))\nprint(type(t3))\nprint(type(t4))\nprint(type(t5))",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "t2",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "t2 = (1)\nt3 = ()\nt5 = set( )\nt4 = (1,2,4,7,9)\nprint(type(t1))\nprint(type(t2))\nprint(type(t3))\nprint(type(t4))\nprint(type(t5))\n# accessing elements of tuple",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "t3",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "t3 = ()\nt5 = set( )\nt4 = (1,2,4,7,9)\nprint(type(t1))\nprint(type(t2))\nprint(type(t3))\nprint(type(t4))\nprint(type(t5))\n# accessing elements of tuple\nprint(t4[3])",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "t5",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "t5 = set( )\nt4 = (1,2,4,7,9)\nprint(type(t1))\nprint(type(t2))\nprint(type(t3))\nprint(type(t4))\nprint(type(t5))\n# accessing elements of tuple\nprint(t4[3])\n# concatenate two tuples",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "t4",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "t4 = (1,2,4,7,9)\nprint(type(t1))\nprint(type(t2))\nprint(type(t3))\nprint(type(t4))\nprint(type(t5))\n# accessing elements of tuple\nprint(t4[3])\n# concatenate two tuples\nt1 = (1,2,3)",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "t1",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "t1 = (1,2,3)\nt2 = (4,5,7)\nt10 = t1 + t2\nprint(t10)\n# assigning elements of tupples to variables\na,*b,c = t10\nprint(a)\nprint(b)\nprint(c)\n# to use tuple as key in dictionary ",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "t2",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "t2 = (4,5,7)\nt10 = t1 + t2\nprint(t10)\n# assigning elements of tupples to variables\na,*b,c = t10\nprint(a)\nprint(b)\nprint(c)\n# to use tuple as key in dictionary \nt9 = (1,2,3)",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "t10",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "t10 = t1 + t2\nprint(t10)\n# assigning elements of tupples to variables\na,*b,c = t10\nprint(a)\nprint(b)\nprint(c)\n# to use tuple as key in dictionary \nt9 = (1,2,3)\nd1 = {}",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "a,*b,c",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "a,*b,c = t10\nprint(a)\nprint(b)\nprint(c)\n# to use tuple as key in dictionary \nt9 = (1,2,3)\nd1 = {}\nkey = t9\nvalue = \"tuple as a key value\"\nd1[key] = value",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "t9",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "t9 = (1,2,3)\nd1 = {}\nkey = t9\nvalue = \"tuple as a key value\"\nd1[key] = value\nprint(d1)",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "d1",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "d1 = {}\nkey = t9\nvalue = \"tuple as a key value\"\nd1[key] = value\nprint(d1)",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "key = t9\nvalue = \"tuple as a key value\"\nd1[key] = value\nprint(d1)",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "value",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "value = \"tuple as a key value\"\nd1[key] = value\nprint(d1)",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "d1[key]",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "d1[key] = value\nprint(d1)",
         "detail": "tuples",
         "documentation": {}
     },
@@ -1132,7 +1877,7 @@
         "kind": 5,
         "importPath": "var_datatypes",
         "description": "var_datatypes",
-        "peekOfCode": "name1 = \"ali\"\nage = \"1\"\nname2 = \"Muhammad\" \nage1 = 2\nprint(name1 + \" is \" + age + \" year old:\")  # we can only concatenate string as there by plus sign\nprint(name2 + \" is \",age1,\" year old:\") #if I have to write the integer with string so i have to write ww\\ith this way\nprint(f\"{name2} is {age1} year old\") # professional way",
+        "peekOfCode": "name1 = \"ali\"\nage = \"1\"\nname2 = \"Muhammad\" \nage1 = 2\nprint(name1 + \" is \" + age + \" year old:\")  # we can only concatenate string as there by plus sign\nprint(name2 + \" is \",age1,\" year old:\") #if I have to write the integer with string so i have to write with this way\nprint(f\"{name2} is {age1} year old\") # professional way",
         "detail": "var_datatypes",
         "documentation": {}
     },
@@ -1141,7 +1886,7 @@
         "kind": 5,
         "importPath": "var_datatypes",
         "description": "var_datatypes",
-        "peekOfCode": "age = \"1\"\nname2 = \"Muhammad\" \nage1 = 2\nprint(name1 + \" is \" + age + \" year old:\")  # we can only concatenate string as there by plus sign\nprint(name2 + \" is \",age1,\" year old:\") #if I have to write the integer with string so i have to write ww\\ith this way\nprint(f\"{name2} is {age1} year old\") # professional way",
+        "peekOfCode": "age = \"1\"\nname2 = \"Muhammad\" \nage1 = 2\nprint(name1 + \" is \" + age + \" year old:\")  # we can only concatenate string as there by plus sign\nprint(name2 + \" is \",age1,\" year old:\") #if I have to write the integer with string so i have to write with this way\nprint(f\"{name2} is {age1} year old\") # professional way",
         "detail": "var_datatypes",
         "documentation": {}
     },
@@ -1150,7 +1895,7 @@
         "kind": 5,
         "importPath": "var_datatypes",
         "description": "var_datatypes",
-        "peekOfCode": "name2 = \"Muhammad\" \nage1 = 2\nprint(name1 + \" is \" + age + \" year old:\")  # we can only concatenate string as there by plus sign\nprint(name2 + \" is \",age1,\" year old:\") #if I have to write the integer with string so i have to write ww\\ith this way\nprint(f\"{name2} is {age1} year old\") # professional way",
+        "peekOfCode": "name2 = \"Muhammad\" \nage1 = 2\nprint(name1 + \" is \" + age + \" year old:\")  # we can only concatenate string as there by plus sign\nprint(name2 + \" is \",age1,\" year old:\") #if I have to write the integer with string so i have to write with this way\nprint(f\"{name2} is {age1} year old\") # professional way",
         "detail": "var_datatypes",
         "documentation": {}
     },
@@ -1159,7 +1904,7 @@
         "kind": 5,
         "importPath": "var_datatypes",
         "description": "var_datatypes",
-        "peekOfCode": "age1 = 2\nprint(name1 + \" is \" + age + \" year old:\")  # we can only concatenate string as there by plus sign\nprint(name2 + \" is \",age1,\" year old:\") #if I have to write the integer with string so i have to write ww\\ith this way\nprint(f\"{name2} is {age1} year old\") # professional way",
+        "peekOfCode": "age1 = 2\nprint(name1 + \" is \" + age + \" year old:\")  # we can only concatenate string as there by plus sign\nprint(name2 + \" is \",age1,\" year old:\") #if I have to write the integer with string so i have to write with this way\nprint(f\"{name2} is {age1} year old\") # professional way",
         "detail": "var_datatypes",
         "documentation": {}
     },

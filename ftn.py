@@ -5,7 +5,7 @@ def say_hi(name,age):
 
 print("rahim")
 
-say_hi("rahim", 23)    # apiece of informaiton that is given to function
+say_hi("rahim", 23)    # a piece of informaiton that is given to function
 
 
 # Return statements

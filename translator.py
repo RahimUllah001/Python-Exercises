@@ -1,4 +1,5 @@
 def translate(phrase):
+
     translation = ""
 
     for letter in phrase:
@@ -15,8 +16,5 @@ def translate(phrase):
 
 
 print(translate(input("enter your string")))                 
-
-
-
 
 

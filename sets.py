@@ -1,4 +1,4 @@
-# set: mutable, unordered, and collection daatatype, no duplicate
+# set: mutable, unordered, and collection data type, no duplicate
 
 
 s = set("hello")
@@ -19,8 +19,7 @@ print(type(s1))      #type = set
 # s1.discard(3)       #if not found the not give give any error
 # s1.clear()      #clear the set
 
-# s1.pop()        #it deletes the ist and return it
-
+s1.pop()        #it deletes the ist 
 
 
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -40,7 +39,7 @@ print(diff)
 
 diffsymtric = prime.symmetric_difference(odd)
 
-print(diffsymtric)      #will give all the element sof both sets except the common one
+print(diffsymtric)      #will give all the element of both sets except the common one
 
 setA = {1,2,3,4,5,6}
 setB = { 7,8,9,0}

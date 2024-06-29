@@ -25,15 +25,11 @@ class valueTooSmall(Exception):
         self.message = message
         self.value = value
 
-
-
 def test_value(x):
     if x>100:
         raise valueTooHigh("value is too high")
     if x < 5:
         raise valueTooSmall("value is too small",x)    
-
-
 
 try:
     test_value(3)

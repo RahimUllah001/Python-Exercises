@@ -1,7 +1,7 @@
 name = "rahim"
 
 for letter in name:
-    print(letter) #it will print character of abive srring one by one
+    print(letter) #it will print character of above string one by one
 
 num = [1,2,3,4,5]
 

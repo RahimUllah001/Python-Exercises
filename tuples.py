@@ -47,3 +47,56 @@ print(timeit.timeit(stmt="[1,2,3,4,5,6]",number=10000000))
 print(timeit.timeit(stmt="(1,2,3,4,5,6)",number=10000000)) #if we repeat the give number 10000000 time the list creation will take 0.3 greater time than tuple
 
 # ///////////////////////////////////////////////////////////////////////////////////
+
+
+t5 = (1,2,3,4)
+
+t6 = (6,7,8)
+
+t7 = t5 + t6
+print(t7)
+
+l1 = list(t7)
+print(l1)
+
+# How would you create a tuple with a single element?
+
+t1 = (1,)
+t2 = (1)
+t3 = ()
+t5 = set( )
+t4 = (1,2,4,7,9)
+print(type(t1))
+print(type(t2))
+print(type(t3))
+print(type(t4))
+print(type(t5))
+
+# accessing elements of tuple
+print(t4[3])
+
+
+# concatenate two tuples
+
+t1 = (1,2,3)
+t2 = (4,5,7)
+
+t10 = t1 + t2
+print(t10)
+
+# assigning elements of tupples to variables
+
+a,*b,c = t10
+print(a)
+print(b)
+print(c)
+
+# to use tuple as key in dictionary 
+
+t9 = (1,2,3)
+d1 = {}
+key = t9
+value = "tuple as a key value"
+d1[key] = value
+print(d1)
+

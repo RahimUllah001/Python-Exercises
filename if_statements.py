@@ -6,7 +6,7 @@ if marks >= 50:
 elif male and gradute:
     print("you are male")
 
-else:                   # we cannot put condition in else 
+else:                                       # we cannot put condition in else 
     print("best of luck for next time")        
 
 
